@@ -1,7 +1,7 @@
 import { Factura } from "./Factura";
 
 /**
- * Clase HTML
+ * @class HTML
  * @implements Factura
  * @property total Total de la factura
  * @property remitente Remitente de la factura
