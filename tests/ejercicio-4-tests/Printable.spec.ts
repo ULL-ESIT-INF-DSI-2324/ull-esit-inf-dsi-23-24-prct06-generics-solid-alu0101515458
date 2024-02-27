@@ -1,8 +1,8 @@
 import 'mocha';
 import { expect } from 'chai';
-import { Printer } from '../../src/ejercicio-4/Printable';
+import { Printer } from '../../src/ejercicio-4/Printer';
 
-describe('Printable', () => {
+describe('Printer', () => {
   it('debería tener un método print', () => {
     const testPrinter = new Printer();
     expect(testPrinter.print).to.be.a('function');

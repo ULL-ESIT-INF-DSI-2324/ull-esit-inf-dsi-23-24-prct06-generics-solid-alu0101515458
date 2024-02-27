@@ -1,8 +1,8 @@
 import 'mocha';
 import { expect } from 'chai';
-import { Scanner } from '../../src/ejercicio-4/Scannable';
+import { Scanner } from '../../src/ejercicio-4/Scanner';
 
-describe('Scannable', () => {
+describe('Scanner', () => {
   it('Debería tener un método scan', () => {
     const testScanner = new Scanner();
     expect(testScanner.scan).to.be.a('function');

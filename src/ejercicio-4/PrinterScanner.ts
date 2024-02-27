@@ -1,6 +1,6 @@
 // printer-scanner.ts
-import { Printable } from './Interfaces';
-import { Scannable } from './Interfaces';
+import { Printable } from './Printable';
+import { Scannable } from './Scannable';
 
 /**
  * Clase que implementa las interfaces Printable y Scannable.

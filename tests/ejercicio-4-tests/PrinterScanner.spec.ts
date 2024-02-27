@@ -1,7 +1,7 @@
 import 'mocha';
 import { expect } from 'chai';
 import { PrinterScanner } from '../../src/ejercicio-4/PrinterScanner';
-import { Printer } from '../../src/ejercicio-4/Printable';
+import { Printer } from '../../src/ejercicio-4/Printer';
 
 describe('PrinterScanner', () => {
   it('debería tener un método print', () => {

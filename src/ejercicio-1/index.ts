@@ -26,8 +26,8 @@ mudanza.addCaja(cajaPrendas);
 mudanza.addCaja(cajaTecnologia);
 
 // Pruebas 
-// console.log("Peso total de la mudanza:", mudanza.getTotalWeight());
-// mudanza.listAllEnsers();
+console.log("Peso total de la mudanza:", mudanza.getTotalWeight());
+mudanza.listAllEnsers();
 // Output:
 // Peso total de la mudanza: 6
 // Caja #1:

@@ -14,6 +14,6 @@ coleccionFacturas.agregarFactura(facturaHTML);
 coleccionFacturas.agregarFactura(facturaPDF);
 
 // Pruebas
-// console.log("Facturas generadas:");
-// const facturasGeneradas = coleccionFacturas.generarTodasLasFacturas();
-// facturasGeneradas.forEach((factura) => console.log(factura));
+console.log("Facturas generadas:");
+const facturasGeneradas = coleccionFacturas.generarTodasLasFacturas();
+facturasGeneradas.forEach((factura) => console.log(factura));

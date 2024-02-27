@@ -1,5 +1,5 @@
-import { Printer } from "./Printable";
-import { Scanner } from "./Scannable";
+import { Printer } from "./Printer";
+import { Scanner } from "./Scanner";
 import { PrinterScanner } from "./PrinterScanner";
 
 console.log('Impresora:');
