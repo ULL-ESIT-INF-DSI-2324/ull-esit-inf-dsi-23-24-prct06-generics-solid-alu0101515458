@@ -46,7 +46,6 @@ describe("ArithmeticableCollection", () => {
     racionales.addArithmeticable(new Rational(1, 2));
     racionales.addArithmeticable(new Rational(3, 4));
     expect(racionales.getArithmeticable(0).add(
-      racionales.getArithmeticable(0),
       racionales.getArithmeticable(1),
     )).to.deep.equal(new Rational(10, 8));
   });
@@ -57,7 +56,6 @@ describe("ArithmeticableCollection", () => {
     complejos.addArithmeticable(new Complex(1, 2));
     complejos.addArithmeticable(new Complex(3, 4));
     expect(complejos.getArithmeticable(0).add(
-      complejos.getArithmeticable(0),
       complejos.getArithmeticable(1),
     )).to.deep.equal(new Complex(4, 6));
   });
@@ -68,7 +66,6 @@ describe("ArithmeticableCollection", () => {
     racionales.addArithmeticable(new Rational(1, 2));
     racionales.addArithmeticable(new Rational(3, 4));
     expect(racionales.getArithmeticable(0).subtract(
-      racionales.getArithmeticable(0),
       racionales.getArithmeticable(1),
     )).to.deep.equal(new Rational(-2, 8));
   });
@@ -79,7 +76,6 @@ describe("ArithmeticableCollection", () => {
     complejos.addArithmeticable(new Complex(1, 2));
     complejos.addArithmeticable(new Complex(3, 4));
     expect(complejos.getArithmeticable(0).subtract(
-      complejos.getArithmeticable(0),
       complejos.getArithmeticable(1),
     )).to.deep.equal(new Complex(-2, -2));
   });
@@ -90,7 +86,6 @@ describe("ArithmeticableCollection", () => {
     racionales.addArithmeticable(new Rational(1, 2));
     racionales.addArithmeticable(new Rational(3, 4));
     expect(racionales.getArithmeticable(0).multiply(
-      racionales.getArithmeticable(0),
       racionales.getArithmeticable(1),
     )).to.deep.equal(new Rational(3, 8));
   });
@@ -101,7 +96,6 @@ describe("ArithmeticableCollection", () => {
     complejos.addArithmeticable(new Complex(1, 2));
     complejos.addArithmeticable(new Complex(3, 4));
     expect(complejos.getArithmeticable(0).multiply(
-      complejos.getArithmeticable(0),
       complejos.getArithmeticable(1),
     )).to.deep.equal(new Complex(-5, 10));
   });
@@ -112,7 +106,6 @@ describe("ArithmeticableCollection", () => {
     racionales.addArithmeticable(new Rational(1, 2));
     racionales.addArithmeticable(new Rational(3, 4));
     expect(racionales.getArithmeticable(0).divide(
-      racionales.getArithmeticable(0),
       racionales.getArithmeticable(1),
     )).to.deep.equal(new Rational(4, 6));
   });
@@ -123,7 +116,6 @@ describe("ArithmeticableCollection", () => {
     complejos.addArithmeticable(new Complex(1, 2));
     complejos.addArithmeticable(new Complex(3, 4));
     expect(complejos.getArithmeticable(0).divide(
-      complejos.getArithmeticable(0),
       complejos.getArithmeticable(1),
     )).to.deep.equal(new Complex(0.44, 0.08));
   });

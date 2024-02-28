@@ -20,7 +20,7 @@ describe("Rational", () => {
   it("Debería devolver la suma de los números racionales", () => {
     const rational1 = new Rational(1, 2);
     const rational2 = new Rational(3, 4);
-    const result = rational1.add(rational1, rational2);
+    const result = rational1.add(rational2);
     expect(result.getNumerator()).to.equal(10);
     expect(result.getDenominator()).to.equal(8);
   });
@@ -29,7 +29,7 @@ describe("Rational", () => {
   it("Debería devolver la resta de los números racionales", () => {
     const rational1 = new Rational(1, 2);
     const rational2 = new Rational(3, 4);
-    const result = rational1.subtract(rational1, rational2);
+    const result = rational1.subtract(rational2);
     expect(result.getNumerator()).to.equal(-2);
     expect(result.getDenominator()).to.equal(8);
   });
@@ -38,7 +38,7 @@ describe("Rational", () => {
   it("Debería devolver la multiplicación de los números racionales", () => {
     const rational1 = new Rational(1, 2);
     const rational2 = new Rational(3, 4);
-    const result = rational1.multiply(rational1, rational2);
+    const result = rational1.multiply(rational2);
     expect(result.getNumerator()).to.equal(3);
     expect(result.getDenominator()).to.equal(8);
   });
@@ -47,7 +47,7 @@ describe("Rational", () => {
   it("Debería devolver la división de los números racionales", () => {
     const rational1 = new Rational(1, 2);
     const rational2 = new Rational(3, 4);
-    const result = rational1.divide(rational1, rational2);
+    const result = rational1.divide(rational2);
     expect(result.getNumerator()).to.equal(4);
     expect(result.getDenominator()).to.equal(6);
   });

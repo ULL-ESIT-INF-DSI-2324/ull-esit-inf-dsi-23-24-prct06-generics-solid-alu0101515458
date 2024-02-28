@@ -36,34 +36,34 @@ export class Rational implements Arithmeticable<Rational> {
   }
 
   // Devuelve la suma de los valores racionales
-  add(a: Rational, b: Rational): Rational {
+  add(b: Rational): Rational {
     return new Rational(
-      a.numerator * b.denominator + b.numerator * a.denominator,
-      a.denominator * b.denominator,
+      this.numerator * b.denominator + b.numerator * this.denominator,
+      this.denominator * b.denominator,
     );
   }
 
   // Devuelve la resta de los valores racionales
-  subtract(a: Rational, b: Rational): Rational {
+  subtract(b: Rational): Rational {
     return new Rational(
-      a.numerator * b.denominator - b.numerator * a.denominator,
-      a.denominator * b.denominator,
+      this.numerator * b.denominator - b.numerator * this.denominator,
+      this.denominator * b.denominator,
     );
   }
 
   // Devuelve la multiplicación de los valores racionales
-  multiply(a: Rational, b: Rational): Rational {
+  multiply(b: Rational): Rational {
     return new Rational(
-      a.numerator * b.numerator,
-      a.denominator * b.denominator,
+      this.numerator * b.numerator,
+      this.denominator * b.denominator,
     );
   }
 
   // Devuelve la división de los valores racionales
-  divide(a: Rational, b: Rational): Rational {
+  divide(b: Rational): Rational {
     return new Rational(
-      a.numerator * b.denominator,
-      a.denominator * b.numerator,
+      this.numerator * b.denominator,
+      this.denominator * b.numerator,
     );
   }
 }

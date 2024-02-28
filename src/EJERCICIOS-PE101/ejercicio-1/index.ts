@@ -37,7 +37,6 @@ for (let i = 0; i < racionales.getNumberOfArithmeticables() - 1; i++) {
     racionales
       .getArithmeticable(i)
       .add(
-        racionales.getArithmeticable(i),
         racionales.getArithmeticable(i + 1),
       ),
   );
@@ -48,7 +47,7 @@ for (let i = 0; i < complejos.getNumberOfArithmeticables() - 1; i++) {
     `Suma de complejos ${i + 1} y ${i + 2}:`,
     complejos
       .getArithmeticable(i)
-      .add(complejos.getArithmeticable(i), complejos.getArithmeticable(i + 1)),
+      .add(complejos.getArithmeticable(i + 1)),
   );
 }
 
@@ -60,7 +59,6 @@ for (let i = 0; i < racionales.getNumberOfArithmeticables() - 1; i++) {
     racionales
       .getArithmeticable(i)
       .subtract(
-        racionales.getArithmeticable(i),
         racionales.getArithmeticable(i + 1),
       ),
   );
@@ -72,7 +70,6 @@ for (let i = 0; i < complejos.getNumberOfArithmeticables() - 1; i++) {
     complejos
       .getArithmeticable(i)
       .subtract(
-        complejos.getArithmeticable(i),
         complejos.getArithmeticable(i + 1),
       ),
   );
@@ -86,7 +83,6 @@ for (let i = 0; i < racionales.getNumberOfArithmeticables() - 1; i++) {
     racionales
       .getArithmeticable(i)
       .multiply(
-        racionales.getArithmeticable(i),
         racionales.getArithmeticable(i + 1),
       ),
   );
@@ -98,7 +94,6 @@ for (let i = 0; i < complejos.getNumberOfArithmeticables() - 1; i++) {
     complejos
       .getArithmeticable(i)
       .multiply(
-        complejos.getArithmeticable(i),
         complejos.getArithmeticable(i + 1),
       ),
   );
@@ -112,7 +107,6 @@ for (let i = 0; i < racionales.getNumberOfArithmeticables() - 1; i++) {
     racionales
       .getArithmeticable(i)
       .divide(
-        racionales.getArithmeticable(i),
         racionales.getArithmeticable(i + 1),
       ),
   );
@@ -124,7 +118,6 @@ for (let i = 0; i < complejos.getNumberOfArithmeticables() - 1; i++) {
     complejos
       .getArithmeticable(i)
       .divide(
-        complejos.getArithmeticable(i),
         complejos.getArithmeticable(i + 1),
       ),
   );
