@@ -1,4 +1,4 @@
-import { Scannable } from './Scannable';
+import { Scannable } from "./Scannable";
 
 /**
  * Clase que implementa la interfaz Scannable.
@@ -11,7 +11,7 @@ export class Scanner implements Scannable {
    * @returns void
    */
   scan(): void {
-    console.log('Escaneando...');
+    console.log("Escaneando...");
   }
 
   /**
@@ -19,7 +19,6 @@ export class Scanner implements Scannable {
    * @returns void
    */
   scanColor(): void {
-    console.log('Escaneando en color...');
+    console.log("Escaneando en color...");
   }
 }
-

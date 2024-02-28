@@ -1,5 +1,5 @@
-import * as fs from 'fs';
-import { IFileReader } from './FileOperation';
+import * as fs from "fs";
+import { IFileReader } from "./IFileReader";
 
 /**
  * Clase que implementa la interfaz IFileReader.
@@ -15,11 +15,11 @@ export class FileReader implements IFileReader {
   public readFile(filePath: string): string {
     // Si el archivo no existe, se lanza un error.
     try {
-      const content: string = fs.readFileSync(filePath, 'utf-8');
+      const content: string = fs.readFileSync(filePath, "utf-8");
       return content;
     } catch (error) {
-      console.error('Error al leer el archivo:', error.message);
-      return '';
+      console.error("Error al leer el archivo:", error.message);
+      return "";
     }
   }
 }

@@ -59,7 +59,10 @@ export class Mudanza<T extends Enser> {
   getTotalWeight(): number {
     // Calcular el peso total de la mudanza
     return this.Caja.reduce((totalWeight, Caja) => {
-      const CajaWeight = Caja.getEnsers().reduce((weight, Enser) => weight + Enser.weight, 0);
+      const CajaWeight = Caja.getEnsers().reduce(
+        (weight, Enser) => weight + Enser.weight,
+        0,
+      );
       return totalWeight + CajaWeight;
     }, 0);
   }

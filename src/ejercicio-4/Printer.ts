@@ -1,4 +1,4 @@
-import { Printable } from './Printable';
+import { Printable } from "./Printable";
 
 /**
  * Clase que implementa la interfaz Printable.
@@ -11,7 +11,7 @@ export class Printer implements Printable {
    * @returns void
    */
   print(): void {
-    console.log('Imprimiendo...');
+    console.log("Imprimiendo...");
   }
 
   /**
@@ -19,7 +19,6 @@ export class Printer implements Printable {
    * @returns void
    */
   printDuplex(): void {
-    console.log('Imprimiendo a doble cara...');
+    console.log("Imprimiendo a doble cara...");
   }
 }
-

@@ -1,5 +1,5 @@
-import * as fs from 'fs';
-import { IFileWriter } from './FileOperation';
+import * as fs from "fs";
+import { IFileWriter } from "./IFileWriter";
 
 /**
  * Clase que implementa la interfaz IFileWriter.
@@ -16,10 +16,10 @@ export class FileWriter implements IFileWriter {
   public writeFile(filePath: string, data: string): void {
     // Si el archivo no existe, se lanza un error.
     if (!fs.existsSync(filePath)) {
-      throw new Error('El archivo no existe.');
+      throw new Error("El archivo no existe.");
     }
     // Se escribe el archivo.
-    fs.writeFileSync(filePath, data, 'utf-8');
-    console.log('Archivo escrito exitosamente.');
+    fs.writeFileSync(filePath, data, "utf-8");
+    console.log("Archivo escrito exitosamente.");
   }
 }

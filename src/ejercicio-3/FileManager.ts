@@ -1,4 +1,5 @@
-import { IFileReader, IFileWriter } from './FileOperation';
+import { IFileReader } from "./IFileReader";
+import { IFileWriter } from "./IFileWriter";
 
 /**
  * Clase que representa un gestor de archivos.
@@ -38,4 +39,3 @@ export class FileManager {
     this.fileWriter.writeFile(filePath, data);
   }
 }
-

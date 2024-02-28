@@ -1,6 +1,6 @@
 // printer-scanner.ts
-import { Printable } from './Printable';
-import { Scannable } from './Scannable';
+import { Printable } from "./Printable";
+import { Scannable } from "./Scannable";
 
 /**
  * Clase que implementa las interfaces Printable y Scannable.
@@ -15,7 +15,7 @@ export class PrinterScanner implements Printable, Scannable {
    * @returns void
    */
   print(): void {
-    console.log('Imprimiendo...');
+    console.log("Imprimiendo...");
   }
 
   /**
@@ -23,7 +23,7 @@ export class PrinterScanner implements Printable, Scannable {
    * @returns void
    */
   printDuplex(): void {
-    console.log('Imprimiendo a doble cara...');
+    console.log("Imprimiendo a doble cara...");
   }
 
   /**
@@ -31,7 +31,7 @@ export class PrinterScanner implements Printable, Scannable {
    * @returns void
    */
   scan(): void {
-    console.log('Escaneando...');
+    console.log("Escaneando...");
   }
 
   /**
@@ -39,6 +39,6 @@ export class PrinterScanner implements Printable, Scannable {
    * @returns void
    */
   scanColor(): void {
-    console.log('Escaneando en color...');
+    console.log("Escaneando en color...");
   }
 }
