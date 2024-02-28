@@ -22,27 +22,45 @@ export class Complex implements Arithmeticable<Complex> {
     this.imaginary = imaginary;
   }
 
-  // Devuelve la parte real
+  /**
+   * Devuelve la parte real del número complejo
+   * @returns {number} Parte real del número complejo
+   */
   getReal(): number {
     return this.real;
   }
 
-  // Devuelve la parte imaginaria
+  /**
+   * Devuelve la parte imaginaria del número complejo
+   * @returns {number} Parte imaginaria del número complejo
+   */
   getImaginary(): number {
     return this.imaginary;
   }
 
-  // Devuelve la suma de los números complejos
+  /**
+   * Devuelve la suma de los números complejos
+   * @param {Complex} b Número complejo a sumar
+   * @returns {Complex} Suma de los números complejos
+   */
   add(b: Complex): Complex {
     return new Complex(this.real + b.real, this.imaginary + b.imaginary);
   }
 
-  // Devuelve la resta de los números complejos
+  /**
+   * Devuelve la resta de los números complejos
+   * @param {Complex} b Número complejo a restar
+   * @returns {Complex} Resta de los números complejos
+   */
   subtract(b: Complex): Complex {
     return new Complex(this.real - b.real, this.imaginary - b.imaginary);
   }
 
-  // Devuelve la multiplicación de los números complejos
+  /**
+   * Devuelve la multiplicación de los números complejos
+   * @param {Complex} b Número complejo a multiplicar
+   * @returns {Complex} Multiplicación de los números complejos
+   */
   multiply(b: Complex): Complex {
     // Operaciones para obtener la parte real.
     const operation1 = this.real * b.real;
@@ -54,7 +72,11 @@ export class Complex implements Arithmeticable<Complex> {
     return new Complex(operation1 + operation4, operation2 + operation3);
   }
 
-  // Devuelve la división de los números complejos
+  /**
+   * Devuelve la división de los números complejos
+   * @param {Complex} b Número complejo a dividir
+   * @returns {Complex} División de los números complejos
+   */
   divide(b: Complex): Complex {
     // Operaciones del numerador
     const operation1 = this.real * b.real;
