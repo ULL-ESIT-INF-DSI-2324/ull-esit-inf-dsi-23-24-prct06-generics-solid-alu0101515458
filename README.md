@@ -11,7 +11,7 @@
 2. [_Tareas Previas_](#2-tareas-previas)
 3. [_Ejercicios Propuestos_](#3-ejercicios-propuestos)  
 3.1 [Ejercicio 1 - La mudanza](#ejercicio-1---la-mudanza)  
-3.2 [Ejercicio 2 - Facturas en diferentes formatos](#ejercicio-2---facturas-en-diferentes-formatos)
+3.2 [Ejercicio 2 - Facturas en diferentes formatos](#ejercicio-2---facturas-en-diferentes-formatos)  
 3.3 [Ejercicio 3 - Gestor de ficheros](#ejercicio-2---gestor-de-ficheros)
 
 # 1. Objetivo
