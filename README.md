@@ -11,9 +11,13 @@
 1. [_Objetivo_](#1-objetivo)
 2. [_Tareas Previas_](#2-tareas-previas)
 3. [_Ejercicios Propuestos_](#3-ejercicios-propuestos)  
-3.1 [Ejercicio 1 - La mudanza](#ejercicio-1---la-mudanza)  
-3.2 [Ejercicio 2 - Facturas en diferentes formatos](#ejercicio-2---facturas-en-diferentes-formatos)
-3.3 [Ejercicio 3 - Gestor de ficheros](#ejercicio-2---gestor-de-ficheros)
+3.1 [_Ejercicio 1 - La mudanza_](#ejercicio-1---la-mudanza)  
+3.2 [_Ejercicio 2 - Facturas en diferentes formatos_](#ejercicio-2---facturas-en-diferentes-formatos)  
+3.3 [_Ejercicio 3 - Gestor de ficheros_](#ejercicio-3---gestor-de-ficheros)  
+3.4 [_Ejercicio 4 - Impresoras y escáneres_](#ejercicio-4---impresoras-y-escáneres)  
+3.5 [_Ejercicio 5 -  Servicio de mensajería_](#ejercicio-5---servicio-de-mensajería)  
+4. [_Conclusión_](#4-conclusión)
+5. [_Referencias Bibliográficas_](#5-referencias-bibliográficas)
 
 # 1. Objetivo
 
@@ -853,7 +857,7 @@ export class Notifier {
 }
 ```
 
-# Conclusión
+# 4. Conclusión
 El proyecto ha representado una experiencia muy buena para profundizar en las técnicas avanzadas de programación orientada a objetos y en la aplicación de los principios SOLID mediante el uso de TypeScript. Al enfrentar los retos de diseño propuestos y desarrollo de sistemas de información complejos, hemos obtenido una comprensión más detallada de cómo la orientación a objetos y la adherencia a principios de diseño SOLID facilitan la creación de software robusto y flexible.
 
 Una de las lecciones clave ha sido la eficacia de los principios SOLID para mejorar la calidad del software. La adopción de estos principios nos ha permitido diseñar sistemas que son más fáciles de entender, extender y mantener. Específicamente, la segregación de interfaces y la inversión de dependencias han promovido un acoplamiento bajo entre componentes, lo que resulta en una mayor flexibilidad y facilidad de prueba del sistema.
