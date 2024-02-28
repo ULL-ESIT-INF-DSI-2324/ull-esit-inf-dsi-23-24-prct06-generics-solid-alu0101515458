@@ -12,7 +12,7 @@
 3. [_Ejercicios Propuestos_](#3-ejercicios-propuestos)  
 3.1 [Ejercicio 1 - La mudanza](#ejercicio-1---la-mudanza)  
 3.2 [Ejercicio 2 - Facturas en diferentes formatos](#ejercicio-2---facturas-en-diferentes-formatos)  
-3.3 [Ejercicio 3 - Gestor de ficheros](#ejercicio-2---gestor-de-ficheros)
+3.3 [Ejercicio 3 - Gestor de ficheros](#ejercicio-3---gestor-de-ficheros)
 
 # 1. Objetivo
 El objetivo de esta práctica es profundizar en el conocimiento y manejo de clases e interfaces genéricas en TypeScript, así como en la aplicación de los principios SOLID de diseño orientado a objetos. Mediante una serie de ejercicios prácticos, buscamos no solo comprender la sintaxis y el uso avanzado de TypeScript, sino también cómo estos conceptos pueden ser aplicados para desarrollar soluciones de software robustas, mantenibles y escalables. A través del desafío de implementar un conjunto de requisitos específicos, esta práctica está diseñada para reforzar nuestra habilidad en el uso de técnicas de programación orientada a objetos y genéricas, enfocándonos en la calidad del diseño de software. Al aplicar los principios SOLID, pretendemos crear un código que sea fácil de entender, modificar y ampliar, destacando la importancia de un diseño de software bien pensado en el desarrollo de aplicaciones eficientes y efectivas.
