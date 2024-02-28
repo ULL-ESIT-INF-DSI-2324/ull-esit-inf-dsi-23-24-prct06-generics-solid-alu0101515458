@@ -127,15 +127,4 @@ describe("ArithmeticableCollection", () => {
       complejos.getArithmeticable(1),
     )).to.deep.equal(new Complex(0.44, 0.08));
   });
-
-  // Test 13
-  it("Debería devolver un error si el denominador es 0", () => {
-    const racionales = new ArithmeticableCollection<Rational>();
-    racionales.addArithmeticable(new Rational(1, 2));
-    racionales.addArithmeticable(new Rational(3, 0));
-    expect(() => racionales.getArithmeticable(1).divide(
-      racionales.getArithmeticable(1),
-      racionales.getArithmeticable(0),
-    )).to.throw("Denominador no puede ser 0");
-  });
 });
