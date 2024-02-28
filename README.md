@@ -11,12 +11,9 @@
 1. [_Objetivo_](#1-objetivo)
 2. [_Tareas Previas_](#2-tareas-previas)
 3. [_Ejercicios Propuestos_](#3-ejercicios-propuestos)  
-   3.1 [Ejercicio 1 - La mudanza](#ejercicio-1---la-mudanza)  
-   3.2 [Ejercicio 2 - Facturas en diferentes formatos](#ejercicio-2---facturas-en-diferentes-formatos)
-   3.3 [Ejercicio 3 - Gestor de ficheros](#ejercicio-3---gestor-de-ficheros)
-   3.4 [Ejercicio 4 - Impresoras y escáneres](#ejercicio-4---impresoras-y-escáneres)
-   3.5 [Ejercicio 5 - Servicio de mensajería](#ejercicio-5---servicio-de-mensajeria)
-4. [_Conclusión_](#4-conclusión)
+3.1 [Ejercicio 1 - La mudanza](#ejercicio-1---la-mudanza)  
+3.2 [Ejercicio 2 - Facturas en diferentes formatos](#ejercicio-2---facturas-en-diferentes-formatos)
+3.3 [Ejercicio 3 - Gestor de ficheros](#ejercicio-2---gestor-de-ficheros)
 
 # 1. Objetivo
 
