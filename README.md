@@ -865,5 +865,5 @@ Además, el enfoque en la programación genérica ha permitido desarrollar soluc
 Concluimos diciendo que este proyecto ha subrayado la importancia de aplicar principios de diseño orientado a objetos y SOLID en el desarrollo de software. A través de la implementación de objetos, clases, interfaces y genéricos en TypeScript, hemos logrado crear un sistema que no solo satisface los requisitos funcionales sino que también se destaca por su claridad, mantenibilidad y capacidad de adaptación a futuras necesidades. 
 
 # 5. Referencias Bibliográficas
-[_SOLID Principles_](#https://samueleresca.net/solid-principles-using-typescript/)  
-[_TypeScript Documentation_](#https://www.typescriptlang.org/docs/)
+[_SOLID Principles_](https://samueleresca.net/solid-principles-using-typescript/)  
+[_TypeScript Documentation_](https://www.typescriptlang.org/docs/)
